@@ -1,0 +1,15 @@
+{
+    "controllers": {
+        "@scopeli/ux-bpmn": {
+            "modeler": {
+                "enabled": true,
+                "fetch": "eager"
+            },
+            "viewer": {
+                "enabled": true,
+                "fetch": "eager"
+            }
+        }
+    },
+    "entrypoints": []
+}
