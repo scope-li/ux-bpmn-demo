@@ -1,0 +1,19 @@
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+#bpmn-viewer {
+  .djs-element.highlight-flow {
+    .djs-visual > :nth-child(1) {
+      stroke: darken(#00ff00, 10%) !important;
+    }
+  }
+
+  .djs-element.highlight-current {
+    .djs-visual > :nth-child(1) {
+      fill: lighten(#00ff00, 40%) !important;
+    }
+  }
+}
